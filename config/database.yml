@@ -20,12 +20,12 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-    database: divyaRubyBlog
+  database: divyaRubyBlog
   username: postgres
   password: admin
 
 production:
   <<: *default
-   database: divyaRubyBlog
+  database: divyaRubyBlog
   username: postgres
   password: admin
